@@ -1,0 +1,4 @@
+Options Indexes FollowSymLinks
+DirectoryIndex taskManager.php
+php_flag session.use_trans_sid 1
+php_flag magic_quotes_gpc Off
