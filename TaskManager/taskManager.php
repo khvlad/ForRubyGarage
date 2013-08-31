@@ -62,7 +62,7 @@
 			<?php
 		}
 	?>
-	Project's name:<br />
+	Project name:<br />
 	<input type="text" name="name" value="<?=$project['name']?>" /><br />
 	<input type="submit" value="Save" />
 </form>
@@ -79,7 +79,7 @@
 			<?php
 		}
 	?>
-	Task's name:<br />
+	Task name:<br />
 	<input type="text" name="name" value="<?=$task['name']?>" /><br />
 	Description:<br />
 	<textarea name="msg" cols="30" rows="3"><?=$task['msg']?></textarea><br />
